@@ -1,0 +1,19 @@
+{
+    "name": "fio-service-getunwraps",
+    "version": "1.0.0",
+    "description": "A service for getting all unwrap events on the FIO Chain.",
+    "main": "./get-unwraps.js",
+    "sideEffects": false,
+    "type": "module",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fioprotocol/fio-service-getunwraps"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.0",
+        "dotenv": "^16.0.3"
+    },
+    "scripts": {
+        "get-unwraps": "node get-unwraps.js"
+    }
+}
