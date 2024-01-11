@@ -1,5 +1,5 @@
 {
-    "name": "fio-service-getunwraps",
+    "name": "@fioprotocol/fio-service-getunwraps",
     "version": "1.0.0",
     "description": "A service for getting all unwrap events on the FIO Chain.",
     "main": "./get-unwraps.js",
